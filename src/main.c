@@ -8,7 +8,7 @@ int main(void) {
 ;
 
    struct diskstack d;
-   d.path = "/home/qeftser/projects/diskstack/bin/stack.d";
+   d.path = "./bin/stack.d";
    init_diskstack(DS_CREAT|DS_ATCH,&d);
 
    clock_t tstart = clock();
